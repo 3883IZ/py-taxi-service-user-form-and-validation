@@ -6,7 +6,12 @@ from django.urls import reverse_lazy
 from django.contrib.auth import get_user_model
 
 from .models import Car, Manufacturer
-from .forms import ManufacturerForm, CarForm, DriverLicenseUpdateForm, DriverCreationForm
+from .forms import (
+    ManufacturerForm,
+    CarForm,
+    DriverLicenseUpdateForm,
+    DriverCreationForm,
+)
 
 User = get_user_model()
 
